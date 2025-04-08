@@ -1,4 +1,6 @@
-const apiUrl = "http://localhost:5000/api/notes";
+// const apiUrl = "http://localhost:5000/api/notes"; //for local
+const apiUrl = '/api/notes';
+
 
 let isEditing = false;
 let currentEditId = null;
